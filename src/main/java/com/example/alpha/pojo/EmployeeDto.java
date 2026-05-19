@@ -221,4 +221,15 @@ public class EmployeeDto {
 		this.errorMessage = errorMessage;
 	}
 
+	@Override
+	public String toString() {
+		return "EmployeeDto [id=" + id + ", name=" + name + ", designation=" + designation + ", mobileNumber="
+				+ mobileNumber + ", email=" + email + ", personalEmail=" + personalEmail + ", officeTelephone="
+				+ officeTelephone + ", deployLocation=" + deployLocation + ", employeeCode=" + employeeCode
+				+ ", dateOfJoining=" + dateOfJoining + ", dateOfBirth=" + dateOfBirth + ", aadharNumber=" + aadharNumber
+				+ ", panNumber=" + panNumber + ", isActive=" + isActive + ", isDeleted=" + isDeleted + ", createdAt="
+				+ createdAt + ", uniqueId=" + uniqueId + ", errorMessage=" + errorMessage + "]";
+	}
+
+	
 }
